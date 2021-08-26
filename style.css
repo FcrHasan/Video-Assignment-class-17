@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans',sans-serif;}
+.mid_content{
+    width: 1300px;
+    margin: auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+}
+body a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 18px 35px;
+    margin: 10px;
+    color: rgb(143, 143, 143);
+    background-color: #fff;
+    border-radius: 5px;
+    transition: .3s;
+}
+.btn:hover{
+    background-color: rgb(127, 127, 247);
+    color: #fff;
+}
+.btn_blue{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px 35px;
+    margin: 10px;
+    color: rgb(127, 127, 247);
+    border: 1px solid rgb(127, 127, 247);
+    background-color: #fff;
+    border-radius: 5px;
+    transition: .3s;
+}
+.btn_blue:hover{
+    background-color: rgb(127, 127, 247);
+    color: #fff;
+    box-shadow: 0 0 20px rgb(127, 127, 247);
+}
+/* Header */
+header{
+    box-shadow: 0 1px 10px rgb(0, 0, 0);
+    background-color: #fff;
+    height: 90px;
+    line-height: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+header .logo{
+    width: 30%;
+}
+header .logo img{
+    width: 80px;
+    float: left;
+    margin-right: 20px;
+}
+header .logo a{
+    display: block;
+}
+header .logo a span{
+    float: left;
+    line-height: 90px;
+    font-size: 35px;
+    color: rgb(114, 114, 114);
+    font-weight: 600;
+}
+header .menu{
+    width: 55%;
+    text-align: center;
+}
+header .menu ul{
+    list-style: none;
+}
+header .menu ul li{
+    display: inline-block;
+
+}
+header .menu ul li a{
+    display: block;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 800;
+    transition: .5s;
+}
+header .menu ul li a:hover{
+    color: rgb(124, 124, 124);
+}
+
+header .button{
+    width: 15%;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+/* Banner Section */
+
+.banner_section{
+    padding: 200px 0;
+    margin-top: 90px;
+    text-align: center;
+    background: url(./Image/mbr-4.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+    position: relative;
+    z-index: 11;
+}
+.banner_section::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.515);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.banner_section h6{
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2pxx;
+}
+.banner_section h1{
+    font-size: 60px;
+    font-weight: 700;
+    padding: 40px 0;
+}
+
+/* Use Section */
+
+.use_section{
+    padding: 100px 0;
+    background: #F7F9FF;
+}
+.use_section .video{
+    width: 47%;
+}
+.use_section .content{
+    width: 48%;
+}
+.use_section .content h1{
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 70px;
+    margin-top: -10px;
+}
+.use_section .content p{
+    font-size: 18px;
+    color: #767676;
+    font-size: 20.8px;
+    line-height: 31.2px;
+    padding:32px 0px 0px ;
+    font-weight: 300;
+}
+
+/* About Section */
+
+.about_section{
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+.about_section .about_header{
+    text-align: center;
+}
+.about_section .about_header h1{
+    font-size: 57.6px;
+    line-height: 63.36px;
+    text-align: center;
+    font-weight: 700;
+}
+.about_section .about_header p{
+    color: #767676;
+    font-size: 25.6px;
+    line-height: 38.4px;
+    padding: 24px 0px 48px;
+    font-weight: 300;
+    text-align: center;
+}
+.about_section .about_box{
+    float: left;
+    width: 30%;
+    height: 250px;
+    margin: 18px 1.3%;
+    text-align: left;
+    box-shadow: 0 0 10px rgb(190, 190, 190);
+    padding: 40px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.about_section .about_box:hover{
+    box-shadow: 0 0 20px rgb(32, 32, 32);
+    border-radius: 15px;
+}
+.about_section .about_box .icon{
+    width: 20%;
+    height: 100%;
+    color: #6278DF;
+    font-size: 35px;
+    float: left;
+}
+.about_section .info{
+    width: 75%;
+    float: right;
+}
+.about_section .about_box h3{
+    font-size: 23px;
+    color: #121213;
+}
+.about_section .about_box p{
+    color: rgb(167, 167, 167);
+    font-size: 19px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+/* Footer Section */
+
+.footer_section{
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    background-color: #767676;
+}
+.footer_section a{
+    color: rgb(255, 136, 8);
+    font-weight: 900;
+    text-decoration: none;
+    position: relative;
+}
+.footer_section a::after{
+    content: 'If you click here you will see my Facebook account.';
+    position: absolute;
+    right: -200%;
+    bottom: 310%;
+    color: White;
+    background-color: #00ff80;
+    width: 600%;
+    height: 0px;
+    line-height: 60px;
+    border-radius: 20px;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: -10px -10px 10px black;
+}
+.footer_section a:hover::after{
+    height: 60px;
+    visibility: visible;
+    opacity: 1;
+    transition:ease-in .6s;
+}
+
+.footer_section a::before{
+    content:'' ;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    border-style: solid;
+    border-width: 0px 14px 0 14px;
+    border-color: #00ff80 transparent transparent transparent;
+}
+.footer_section a:hover::before{
+    border-width: 50px 14px 0 14px;
+    transition: .6s;
+
+}
