@@ -69,7 +69,9 @@ body a{
     color: #fff;
     box-shadow: 0 0 20px rgb(127, 127, 247);
 }
+
 /* Header */
+
 header{
     box-shadow: 0 1px 10px rgb(0, 0, 0);
     background-color: #fff;
@@ -107,7 +109,6 @@ header .menu ul{
 }
 header .menu ul li{
     display: inline-block;
-
 }
 header .menu ul li a{
     display: block;
@@ -119,7 +120,6 @@ header .menu ul li a{
 header .menu ul li a:hover{
     color: rgb(124, 124, 124);
 }
-
 header .button{
     width: 15%;
     line-height: normal;
@@ -248,6 +248,110 @@ header .button{
     margin-top: 20px;
 }
 
+/* Pricing Table */
+
+.pricing_table_section{
+    padding: 25px 0;
+    background: #F7F9FF;
+}
+.pricing_table_section .pricng_header{
+    text-align: center;
+}
+.pricing_table_section .pricng_header h2{
+    font-size: 45px;
+    letter-spacing:2px;
+    word-spacing: 2px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.pricing_table_section .pricng_header p{
+    color: #767676;
+    padding: 5px 0;
+}
+
+/* Pricing Table */
+
+.pricing_table_section .pricing_table{
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(32, 32, 32, 0.212);
+    width: 30%;
+    margin: 0 1.5%;
+    margin-top: 50px;
+    float: left;
+}
+.pricing_table_section .pricing_table:hover .table_header{
+    background-color: #6278DF;
+    color: #fff !important;
+    border-bottom: 2px solid white;
+}
+.pricing_table_section .pricing_table .table_header{
+    box-sizing: border-box;
+    padding: 30px;
+    transition: .5s;
+    border-bottom: 2px solid white;
+}
+.pricing_table_section .pricing_table .table_header h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+.pricing_table_section .pricing_table .table_header h1{
+    font-size: 55px;
+    font-weight: 800;
+    padding: 35px 0;
+}
+.pricing_table_section .pricing_table .table_header h1 span{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.pricing_table_section .pricing_table .table_header h4{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.pricing_table_section .pricing_table .table_header P{
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    letter-spacing:1px;
+    word-spacing: 2px;
+    font-weight: 300;
+}
+
+/* Table Body */
+
+.pricing_table .table_body{
+    padding: 25px;
+    border-top: 2px solid #000;
+}
+.pricing_table .table_body ul{
+    list-style: none;
+}
+.pricing_table .table_body ul li{
+    padding: 15px 0;
+    font-size: 22px;
+    color: rgb(141, 141, 141);
+}
+.pricing_table .table_body i{
+    font-size: 25px;
+    color: #6278DF;
+    margin-right: 15px;
+}
+.pricing_table .button{
+    text-align: center;
+    margin-top: 20px;
+}
+.pricing_table .table_body a{
+    color: #6278DF;
+    box-shadow: 0 0 15px rgb(194, 194, 194);
+}
+.pricing_table .table_body a:hover{
+    color: white;
+    background-color: black !important;
+}
+.pricing_table_section .pricing_table:hover .button a{
+    background-color: #6278DF;
+    color: white;
+}
+
 /* Footer Section */
 
 .footer_section{
@@ -267,7 +371,7 @@ header .button{
     position: absolute;
     right: -200%;
     bottom: 310%;
-    color: White;
+    color: rgb(0, 0, 0);
     background-color: #00ff80;
     width: 600%;
     height: 0px;
@@ -298,5 +402,4 @@ header .button{
 .footer_section a:hover::before{
     border-width: 50px 14px 0 14px;
     transition: .6s;
-
 }
